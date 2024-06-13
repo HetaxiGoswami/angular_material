@@ -1,0 +1,16 @@
+<mat-card>
+  <form (submit)="onpostData()">
+    <mat-form-field class="example-full-width">
+        <mat-label>Post title</mat-label>
+        <input matInput placeholder="post title here">
+      </mat-form-field>
+
+      <mat-form-field class="example-full-width">
+     <textarea matInput name="content" rows="10" placeholder="Post comment">
+
+     </textarea>
+      </mat-form-field>
+<button mat-raised-button color="accent" type="submit">Save post   </button>
+      
+  </form>
+</mat-card>
